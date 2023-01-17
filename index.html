@@ -7,6 +7,7 @@
     <title>Hybris SKU Finder</title>
     <link rel="stylesheet" href="style.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <meta http-equiv="Access-Control-Allow-Origin" content="Origin">
     <script>
         if (!window.storedCat) {
             window.storedCat = $.getJSON('https://api.dyson.com/apiman-gateway/dyson/catalog/1.0/ie/catalogs/ieProductCatalog/Online?format=json') // Re-write without jquery
